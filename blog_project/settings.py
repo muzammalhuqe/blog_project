@@ -29,11 +29,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = ['https://blog-project-k3bj.onrender.com','https://*.127.0.0.1']
-CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = (
-       'http://localhost:5173',
-       'http://localhost:5174',
-)
+CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_WHITELIST = (
+#        'http://localhost:5173',
+#        'http://localhost:5174',
+# )
 
 
 # Application definition
