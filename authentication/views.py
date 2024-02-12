@@ -29,7 +29,7 @@ class UserRegistrationViewset(APIView):
             user = serializer.save()
             token = default_token_generator.make_token(user)
             uid = urlsafe_base64_encode(force_bytes(user.pk))
-            confirm_link = f"https://blog-project-k3bj.onrender.com//authentication/active/{uid}/{token}"
+            confirm_link = f"https://https://blog-project-1wlw.onrender.com//authentication/active/{uid}/{token}"
             email_subject = "Confirm Your Email"
             email_body = render_to_string('confirm_email.html', {'confirm_link' : confirm_link})
             email = EmailMultiAlternatives(email_subject, '', to=[user.email])

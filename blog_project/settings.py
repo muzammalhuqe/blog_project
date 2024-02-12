@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-nm&)$11j%vi!l5gc9gzwfp&gmmqbwfrx%06ie-&p*h)=+6o1#3
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://blog-project-k3bj.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://blog-project-1wlw.onrender.com','https://*.127.0.0.1']
 CORS_ORIGIN_ALLOW_ALL = True
 # CORS_ORIGIN_WHITELIST = (
 #        'http://localhost:5173',
