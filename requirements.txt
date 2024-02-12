@@ -4,6 +4,7 @@ cffi
 charset-normalizer
 crispy-bootstrap5
 cryptography
+django-cors-headers
 defusedxml
 distlib
 dj-database-url
